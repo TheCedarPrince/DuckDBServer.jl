@@ -1,0 +1,13 @@
+name = "DuckDBServer"
+uuid = "79b85d3e-6236-42e3-9910-7c3c4b5a43b0"
+authors = ["TheCedarPrince <jacobszelko@gmail.com> and contributors"]
+version = "0.0.1"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
