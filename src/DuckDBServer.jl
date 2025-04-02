@@ -1,5 +1,20 @@
 module DuckDBServer
 
-# Write your package code here.
+    import Base:
+        convert
+
+    import DataFrames:
+        DataFrame
+
+    import Dates:
+        Date,
+        DateTime
+
+    using HTTP
+    using JSON3
+
+    include("constants.jl")
+    include("convert.jl")
+    include("execute.jl")
 
 end
