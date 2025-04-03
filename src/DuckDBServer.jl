@@ -16,5 +16,6 @@ module DuckDBServer
     include("constants.jl")
     include("convert.jl")
     include("execute.jl")
+    include("server.jl")
 
 end
